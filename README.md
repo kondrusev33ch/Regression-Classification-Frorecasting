@@ -11,5 +11,5 @@ Target: Predict heart failure, using dataset.
 
 ## 3. Forecasting problem: [Store Sales - Time Series Forecasting](https://www.kaggle.com/c/store-sales-time-series-forecasting/overview)
 Target: Forecast 16 days of sales for 54 stores for each of 32 product families, using 6 datasets.    
-[!] Github can't handle files larger than 25 Mb, so you need to [download](https://www.kaggle.com/c/store-sales-time-series-forecasting/data) datasets from the competition page, before running the code.
+[!] Github can't handle files larger than 25 Mb, so you need to [download](https://www.kaggle.com/c/store-sales-time-series-forecasting/data) datasets from the competition page, before running the code.  
 [Kaggle notebook version](https://www.kaggle.com/ilyakondrusevich/54-stores-54-models)
