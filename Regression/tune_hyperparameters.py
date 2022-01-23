@@ -101,10 +101,7 @@ def optimize_lgbmr(trial, x, y):
                           feature_fraction=feature_fraction,
                           bagging_seed=13,
                           bagging_fraction=bagging_fraction)
-    # objective = 'regression', n_estimators = 3500, num_leaves = 5,
-    # learning_rate = 0.00721, max_bin = 163, bagging_fraction = 0.35711,
-    # n_jobs = -1, bagging_seed = 42, feature_fraction_seed = 42,
-    # bagging_freq = 7, feature_fraction = 0.1294, min_data_in_leaf = 8)
+    
     cv_results = cross_validate(model, x, y, cv=KF, scoring='neg_root_mean_squared_error',
                                 return_train_score=True, n_jobs=-1)
 
